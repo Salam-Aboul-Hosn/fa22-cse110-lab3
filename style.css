@@ -14,12 +14,11 @@ ol {
     color: rgb(0, 119, 230);
 }
 
-p {
-    color: orange;
-}
 
-ol {
+
+p, ol {
     background-color: black;
+    color: orange;
 }
 
 li {
@@ -109,3 +108,35 @@ nav {
     }
 
 }
+
+#html {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+/*Doubl check attribute selector*/
+
+ul li {
+    color: orangered;
+}
+
+li + p {
+    color: white;
+}
+fieldset > p {
+    font-size: 20px;
+}
+
+h6.styles {
+    font-size: 30px;
+}
+
+li ~ h5 {
+    color: white;
+}
+
+input[type=text] {
+    border: 5px solid black;
+  }
