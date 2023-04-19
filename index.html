@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/screenshots/favicon-standard.png">
+    <title>Meeting Minutes</title>
+</head>
+<body>
+    <header>
+        <nav><a href="#label">Input Data</a><br><a href="#vid">Video</a></nav>
+        <h1>CSE 110 Meeting Notes</h1>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>Here is an Image</h2>
+            <img src="https://play-lh.googleusercontent.com/vSNQds6F5roxdN4-a16JnQ9dWQVSZZ8OH4-iMAcNLaFQd3ItZWU8rOPOql4Ew5Hh1esX" alt="Picture of notes"/>
+        </section>
+        <section>
+            <hr>
+            <h3>List of notes you missed</h3>
+            <ul>
+                <li>Learn communication skills</li>
+                <li>Study hard</li>
+                <li>Have a good minsdset</li>
+            </ul>
+            <hr>
+            <p>The things that you <i>must</i> <b>learn</b> in <strong>order</strong></p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li><em>React</em></li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>Rest Api</li>
+            </ol>
+            <p>Learn more <a target = "_blank" href= "https://developer.mozilla.org/en-US/">here</a></p>
+        </section>
+        <div>
+            <span>Watch this for an overview <br>(IDK IF CHANGE THE WIDTH AND HEIGHT IN HTML COUNTS AS CSS!)</span>
+        <video id="vid" src="screenshots/React-in-100-Seconds.mp4" controls></video>
+        <p>Here is an audio instead</p>
+        <audio controls src="screenshots/React-in-100-Seconds.mp4"></audio>
+        </div>
+        <section>
+            <section>
+                <label>Look up the names of what you need to learn<input type="text" name="tools" list="tools"></label><br>
+
+                <datalist id="tools">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="Javascript">
+                    <option value="React">
+                  </datalist>
+                  <label>Favorite tool:</label>
+                  <select name="fruit">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="react">React</option>
+                  </select>
+            </section>
+            <form>
+                <fieldset>
+                    <p id="label">Fill in information</p>
+                    <label>Enter Email <input type="email" name="email" placeholder="Email"/></label> <br>
+                    <input type="text"  name="text"/><br>
+                    <p>Enter Birthday</p>
+                    <input type="date" name="date"/><br>
+                    <input type="checkbox"/> <span>Did you Attend?</span><br>
+                    <input type="radio" name="date"/><span>Male</span><br>
+                    <input type="radio" name="date"/><span>Female</span><br>
+                    <textarea placeholder="Add a note"></textarea><br>
+                </fieldset>
+            
+                <button>Submit</button>
+            </form>
+        </section>
+        <section>
+            <details>
+                <summary>Click to expand</summary>
+                <p>Don't forget to email the professor about why you missed the meeting</p>
+              </details>
+        </section>
+    </main>
+    <footer>
+        <p>Designed and built by Salam Aboul Hosn</p>
+    </footer>
+</body>
+</html>
